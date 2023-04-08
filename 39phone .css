@@ -1,0 +1,43 @@
+/* Navigaton section */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a {
+    font-size: 0.8rem;
+    
+}
+.hidden{
+    display: none;
+}
+/* Home section */
+#home{
+  height: 200px;
+  padding: 0px 50px;   
+}
+#home ::before{
+ height: 200px;
+}
+#home h2{
+    font-size: 2rem;
+    
+}
+#home p{
+font-size: 1rem;
+}
+
+/* Service section */
+#service{
+    flex-direction: column;
+}
+#service.box{
+
+}
+
+/* Follow section */
+ 
+
+/* Contact section */
+/* utility classes */
+.one{
+    font-size: 20px;
+}

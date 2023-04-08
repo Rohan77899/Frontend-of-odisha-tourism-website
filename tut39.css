@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+--navbar-height=60px;
+}
+/* Navigation bar */
+#navbar{
+    display: flex;
+    align-items:center;
+     border:2px solid brown;
+    background-color:brown; 
+
+}
+/* logo */
+#logo{
+margin: 1px 8px;
+    padding: 5px 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+    /* background-color: blanchedalmond; */
+}
+/* navgation list styling */
+
+
+#navbar ul{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+#navbar::before{
+    content: "";
+    background-color:black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.1rem;
+    
+}
+#navbar ul li a{
+    color: bisque;
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: rgb(146, 94, 30);
+    background-color: antiquewhite;
+    
+}
+/* home section */
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 65px 100px;   
+    height: 150px;
+}
+ #home::before{
+    content: "";
+    background-color: black; 
+    background: url('img/background\ follow.jpg')no-repeat center center/cover;
+    position: absolute;
+    height: 55%;
+    width: 100%;
+    z-index: -1;  
+    opacity: 0.8; 
+object-fit: cover;
+}
+/* utility classes */
+.one{
+    font-size: 3rem;
+    padding: 10px;
+} 
+.second{
+    font-size: 2.5rem;
+    padding: 10px;
+} 
+  #home h2{
+
+            text-align: center;
+            color: rgb(30, 10, 216);
+        }
+  #home p{
+            font-size: 1.5rem;
+            text-align: center;
+            color: rgb(10, 9, 9);
+            font-weight: bold;
+        }
+        .second{
+
+        }
+        
+        .center{
+            text-align:center;
+        }
+/* service section  */
+ .service-container h1{
+            padding: 25px ;
+            margin-top: 30px;
+        }
+        #service{
+            display: flex;
+            margin: 6px;
+        }
+        #service .box{
+            border: 2px solid brown;
+            padding: 20px;
+            margin: 6px;
+            border-radius: 20px;
+            background-color: bisque;
+        }
+        #service .box img{
+            height: 90px;
+            display: block;
+            margin: auto ;
+        }
+        #service .box h3{
+            font-size:1.5rem ;
+
+        }
+        #service .box .btn{
+            display: block;
+            margin: 10px auto;
+            width: 80px;
+            height: 20px;
+            border-radius: 10px;
+            
+        }
+        #service .box .btn:hover{
+            background-color: rgb(18, 180, 209);
+        }
+/* follow section */
+#follow-container{
+    /* border: 2px solid brown; */
+    position: relative;
+    
+}
+#follow-container::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    /* background: url('https://saitravelcare.in/wp-content/uploads/2018/02/classic-odisha.jpg')no-repeat center/cover; */
+    background-color: rgb(45, 146, 212);
+} 
+
+
+#follow{
+    display: flex;
+    justify-content: center;
+    align-items: center  ;
+ 
+}
+#follow img{
+    height: 60px;
+    padding: 30px;
+    
+}
+/* contact section */
+
+#contact{
+    position: relative ; 
+}
+ #contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url('https://wallpaperaccess.com/full/3124535.jpg')no-repeat center/cover;
+ }
+ #contact-box{
+     display: flex;
+     justify-content:center ;
+     align-items: center;
+     padding-bottom: 50px;
+ }
+ #contact-box input,
+ #contact-box textarea{
+     width:100%;
+     padding: 0.5rem;
+     border-radius: 5px;
+     font-size: 1.2rem;
+ }
+ #contact-box form{
+     width:40%
+ }
+ #contact-box label{
+font-size: 1.1rem;
+font-weight: bold;
+ }
+footer{
+    background: black;
+    color: aliceblue;
+   
+
+}
+
